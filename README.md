@@ -1,31 +1,7 @@
-# Karnataka Shilpakala Academy  Digital Kannada Books
+# ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು
 
-Karnataka Shilpakala Academy  Digital Kannada Books is a showcase of the #ServantsOfKnowledge project works @Sanchaya & @SanchiFoundation
+Digital archive hosted at **https://shilpakale.sanchaya.net**
 
-Check it out : https://sanchaya.org & https://sanchifoundation.org
+Published by ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ. Items come from Internet Archive query:
 
-
-## HOW TO ADD YOUR PUBLICATION
-
-If you find a nice ebook about kannada, feel free to contribute and add it in a few steps :
-
-- Paste the informations into the JSON file.
-- Please include a .png file for the cover : less than 100Ko.**
-- Make a pull request.
-
-Alternatively, you can send us an email with book infos : info@sanchaya.org
-
-Thanks per advance !
-
-
-## HISTORY
-
-## Licence
-
-The Digital Kannada Books website is licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
-
-Each book has its own licence, see book homepage.
-
-## About us
-# Karnataka Shilpakala Academy 
-# shilpakale
+    identifier:kashilpa*

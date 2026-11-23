@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shilpakale.sanchaya.net/sitemap.xml

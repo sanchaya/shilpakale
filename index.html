@@ -1,223 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!">
-    <meta name="author" content="Sanchaya">
-
-    <meta property="og:image" content="http://shilpakale.sanchaya.net/img/cover_modularjavascript.png" />
-    <meta property="og:title" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು" />
-    <meta property="og:description" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://shilpakale.sanchaya.net/" />
-
-    <meta name="twitter:card" content="ಅಂತರಜಾಲದಲ್ಲಿರುವ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ!"/>
-    <meta name="twitter:url" content="http://shilpakale.sanchaya.net/"/>
-    <meta name="twitter:title" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು"/>
-    <meta name="twitter:description" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!"/>
-    <meta name="twitter:image" content="http://shilpakale.sanchaya.net/img/cover_modularjavascript.png"/>
-    <meta name=”twitter:creator” value=”@_sanchaya />‍
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./css/index.css" media="all">
-    <link rel="stylesheet" type="text/css" href="./css/support.css?id=1234" media="all">
-
-    <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
-
-    <link rel="shortcut icon" href="./img/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+<meta charset="utf-8">
+<title>ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!">
+<meta name="portal-design" content="9">
+<meta name="author" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ">
+<link rel="canonical" href="https://shilpakale.sanchaya.net/">
+<meta property="og:title" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು">
+<meta property="og:description" content="">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shilpakale.sanchaya.net">
+<meta property="og:image" content="https://archive.org/services/img/kashilpa.jakanacharya0000ckna">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://archive.org/services/img/kashilpa.jakanacharya0000ckna">
+<link rel="icon" type="image/png" sizes="32x32" href="./img/ico/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="192x192" href="./img/ico/android-chrome-192x192.png">
+<link rel="stylesheet" href="./css/portal.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು","description":"ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!","url":"https://shilpakale.sanchaya.net/","inLanguage":"en","publisher":{"@type":"Organization","name":"ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ","url":"https://shilpakalaacademy.karnataka.gov.in/"},"mainEntity":{"@type":"ItemList","numberOfItems":68,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"CreativeWork","name":"ಜಕಣಾಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.jakanacharya0000ckna","author":{"@type":"Person","name":"ಸಿ. ಕೆ. ನಾಗರಾಜ ರಾವ್"},"datePublished":"1996"}},{"@type":"ListItem","position":2,"item":{"@type":"CreativeWork","name":"ಕಲಾರಾಧನೆ","url":"https://archive.org/details/kashilpa.kalaradhane0000drko","author":{"@type":"Person","name":"ಡಾ. ಕೊಂಡೂರು ವೀರ ರಾಘವಾಚಾರ್ಯುಲು"},"datePublished":"1996"}},{"@type":"ListItem","position":3,"item":{"@type":"CreativeWork","name":"ಶಿಲ್ಪಿ ಸಂಕುಲ","url":"https://archive.org/details/kashilpa.shilpisankula0000prti","author":{"@type":"Person","name":"ಪಿ. ಆರ್. ತಿಪ್ಪೇಸ್ವಾಮಿ"},"datePublished":"1996"}},{"@type":"ListItem","position":4,"item":{"@type":"CreativeWork","name":"ಶಿಲ್ಪಬ್ರಹ್ಮ ಸಿ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.shilpabrahmacpar0000dral","author":{"@type":"Person","name":"ಡಾ. ಅ. ಲ. ನರಸಿಂಹನ್"},"datePublished":"1998"}},{"@type":"ListItem","position":5,"item":{"@type":"CreativeWork","name":"ಉತ್ತುಂಗ ಕುಶಲಶಿಲ್ಪಿ ದೇವಲಕುಂದ ವಾದಿರಾಜ್","url":"https://archive.org/details/kashilpa.utungakusalashil0000kana","author":{"@type":"Person","name":"ಕನಕಮೂರ್ತಿ"},"datePublished":"1998"}},{"@type":"ListItem","position":6,"item":{"@type":"CreativeWork","name":"ಸಾಥ್ವಿಕ ಶಿಲ್ಪಿ ನಾಗೇಂದ್ರ ಸ್ಥಪತಿ","url":"https://archive.org/details/kashilpa.sathvikashilpina0000lshi","author":{"@type":"Person","name":"ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ"},"datePublished":"1999"}},{"@type":"ListItem","position":7,"item":{"@type":"CreativeWork","name":"ಶಿಲ್ಪ ಸಿದ್ದಾಂತಿ ಶ್ರೀ ಸಿದ್ದಲಿಂಗ ಸ್ವಾಮಿಗಳು","url":"https://archive.org/details/kashilpa.silpasiddhantisr0000nmar","author":{"@type":"Person","name":"ಎನ್. ಮರಿಶಾಮಾಚಾರ್"},"datePublished":"1999"}},{"@type":"ListItem","position":8,"item":{"@type":"CreativeWork","name":"ಭಾರತೀಯ ಶಿಲ್ಪಕಲೆ","url":"https://archive.org/details/kashilpa.bharathiyashilpa0000nmar","author":{"@type":"Person","name":"ಎನ್. ಮರಿಶಾಮಾಚಾರ್"},"datePublished":"2000"}},{"@type":"ListItem","position":9,"item":{"@type":"CreativeWork","name":"ಕೆ. ಶಾಮರಾಯಾಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.kshamarayacharya0000kava","author":{"@type":"Person","name":"ಕಾ. ವಾ. ಆಚಾರ್ಯ ಶಿರ್ವ"},"datePublished":"2000"}},{"@type":"ListItem","position":10,"item":{"@type":"CreativeWork","name":"ಶಿಲ್ಪಕಲಾ ಆರಾಧಕರು","url":"https://archive.org/details/kashilpa.shilpakalaaradha0000nmar","author":{"@type":"Person","name":"ಎನ್. ಮರಿಶಾಮಾಚಾರ್"},"datePublished":"2000"}},{"@type":"ListItem","position":11,"item":{"@type":"CreativeWork","name":"ವರಶಿಲ್ಪಿ ಗುಂಡಪ್ಪ ಮಯಾಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.varashilpigundap0000viru","author":{"@type":"Person","name":"ವಿರೂಪಾಕ್ಷ ಬಡಿಗೇರ"},"datePublished":"2000"}},{"@type":"ListItem","position":12,"item":{"@type":"CreativeWork","name":"ಎನ್. ಜಿ. ನೀಲಕಂಠಾಚಾರ್","url":"https://archive.org/details/kashilpa.ngneelakantachar0000lshi","author":{"@type":"Person","name":"ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ"},"datePublished":"2001"}},{"@type":"ListItem","position":13,"item":{"@type":"CreativeWork","name":"ಕಲಾಚರಿತ್ರೆ ಭಾಗ 1","url":"https://archive.org/details/kashilpa.kalacharitrepart0000nmar","author":{"@type":"Person","name":"ಎನ್. ಮರಿಶಾಮಾಚಾರ್"},"datePublished":"2002"}},{"@type":"ListItem","position":14,"item":{"@type":"CreativeWork","name":"ಸಿ. ಪಿ. ರಾಜರಾಂ","url":"https://archive.org/details/kashilpa.cprajaram0000kvsu","author":{"@type":"Person","name":"ಕೆ. ವಿ. ಸುಬ್ರಹ್ಮಣ್ಯಂ"},"datePublished":"2004"}},{"@type":"ListItem","position":15,"item":{"@type":"CreativeWork","name":"ಧನಂಜಯ ಶಿಲ್ಪಿ","url":"https://archive.org/details/kashilpa.dhanjayashilpi0000drve","author":{"@type":"Person","name":"ಡಾ. ವೀರೇಶ್ ಎಸ್. ಬಡಿಗೇರ್"},"datePublished":"2004"}},{"@type":"ListItem","position":16,"item":{"@type":"CreativeWork","name":"ಮಾನಸಾರ","url":"https://archive.org/details/kashilpa.manasara0000shil","author":{"@type":"Person","name":"ಶಿಲ್ಪಿ ಸಿದ್ದಲಿಂಗಸ್ವಾಮಿ"},"datePublished":"2004"}},{"@type":"ListItem","position":17,"item":{"@type":"CreativeWork","name":"ಎಂ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.mparameshwaracha0000drmp","author":{"@type":"Person","name":"ಡಾ. ಎಂ. ಪೂರ್ವಾಚಾರ್"},"datePublished":"2004"}},{"@type":"ListItem","position":18,"item":{"@type":"CreativeWork","name":"ಲೋಹಫಲಕ ಮಾಂತ್ರಿಕ","url":"https://archive.org/details/kashilpa.lohaphalakamaant0000cskr","author":{"@type":"Person","name":"ಚಿ. ಸು. ಕೃಷ್ಣ ಸೆಟ್ಟಿ"},"datePublished":"2006"}},{"@type":"ListItem","position":19,"item":{"@type":"CreativeWork","name":"ಶಿಲ್ಪಿ ವೆಂಕಟಾಚಾರ್","url":"https://archive.org/details/kashilpa.shilpavenkatacha0000lshi","author":{"@type":"Person","name":"ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ"},"datePublished":"2006"}},{"@type":"ListItem","position":20,"item":{"@type":"CreativeWork","name":"ಕನ್ನಡ ಶಿಲ್ಪಕಲೆಯ ಸಮಕಾಲೀನ ದೃಶ್ಯ","url":"https://archive.org/details/kashilpa.kannadashilpakal0000kvsu","author":{"@type":"Person","name":"ಕೆ. ವಿ. ಸುಬ್ರಹ್ಮಣ್ಯಂ"},"datePublished":"2007"}},{"@type":"ListItem","position":21,"item":{"@type":"CreativeWork","name":"ಗುರು-ಶಿಷ್ಯ ಪರಂಪರೆಯನ್ನುಳಿಸಿದ ಶಿಲ್ಪಿ ಬಸವಣ್ಣ","url":"https://archive.org/details/kashilpa.gurushishyaparam0000lshi","author":{"@type":"Person","name":"ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ"},"datePublished":"2008"}},{"@type":"ListItem","position":22,"item":{"@type":"CreativeWork","name":"ನಮ್ಮ ದನಿ","url":"https://archive.org/details/kashilpa.nammadani0000srim","author":{"@type":"Person","name":"ಶ್ರೀಮತಿ ಕನಕಮೂರ್ತಿ"},"datePublished":"2008"}},{"@type":"ListItem","position":23,"item":{"@type":"CreativeWork","name":"ಆರ್ ಎಸ್ ಎನ್ ವ್ಯಕ್ತಿ ಮತ್ತು ಕಲೆ","url":"https://archive.org/details/kashilpa.rsnvyakthimattuk0000prof","author":{"@type":"Person","name":"ಪ್ರೊ. ಎಂ. ಎಚ್. ಕೃಷ್ಣಯ್ಯ"},"datePublished":"2008"}},{"@type":"ListItem","position":24,"item":{"@type":"CreativeWork","name":"ಶಿಲ್ಪಿ ವೀರಪ್ಪ ಕುಂಬಾರ ಕೊಟ್ಯಾಳ್ಕರ್ ಕಲಾಜೀವನ","url":"https://archive.org/details/kashilpa.shilpiveerappaku0000glak","author":{"@type":"Person","name":"ಜಿ. ಲಕ್ಷ್ಮೀಪತಿ"},"datePublished":"2008"}},{"@type":"ListItem","position":25,"item":{"@type":"CreativeWork","name":"ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲೆಗಳು","url":"https://archive.org/details/kashilpa.paschayatyadrish0000drda","author":{"@type":"Person","name":"ಡಾ. ಡಿ. ಎ. ಉಪಾಧ್ಯ"},"datePublished":"2011"}},{"@type":"ListItem","position":26,"item":{"@type":"CreativeWork","name":"ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲಾ ಮೀಮಾಂಸೆ","url":"https://archive.org/details/kashilpa.paschayatyadrush0000drda","author":{"@type":"Person","name":"ಡಾ. ಡಿ. ಎ. ಉಪಾಧ್ಯ"},"datePublished":"2011"}},{"@type":"ListItem","position":27,"item":{"@type":"CreativeWork","name":"ಮಹೇಂದ್ರ ಮೋಕ್ಷ","url":"https://archive.org/details/kashilpa.mahendramoksha0000drgg","author":{"@type":"Person","name":"ಡಾ. ಜಿ. ಜ್ಞಾನಾನಂದ"},"datePublished":"2012"}},{"@type":"ListItem","position":28,"item":{"@type":"CreativeWork","name":"ಮೌಲ್ಡರ್ ರಾಜಣ್ಣ","url":"https://archive.org/details/kashilpa.moulderrajannasv0000lshi","author":{"@type":"Person","name":"ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ"},"datePublished":"2012"}},{"@type":"ListItem","position":29,"item":{"@type":"CreativeWork","name":"ರೇಖಾಚಿತ್ರ ಪ್ರವೀಣ ಸಿ. ಕುಪ್ಪಾಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.rekhachitraprave0000lshi","author":{"@type":"Person","name":"ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ"},"datePublished":"2012"}},{"@type":"ListItem","position":30,"item":{"@type":"CreativeWork","name":"ಬಾದಾಮಿ ಚಲುಕ್ಯರ ದೇವಾಲಯಗಳ ಅಲಂಕಾರ ಶಿಲ್ಪಗಳು","url":"https://archive.org/details/kashilpa.badamichalukyara0000drsh","author":{"@type":"Person","name":"ಡಾ. ಶೀಲಾಕಾಂತ ಪತ್ತಾರ"},"datePublished":"2013"}},{"@type":"ListItem","position":31,"item":{"@type":"CreativeWork","name":"ಜಯದೇವ ಮಹಾಕವಿ ಗೀತ ಗೋವಿಂದ","url":"https://archive.org/details/kashilpa.jayadevamahakavi0000unse","author":{"@type":"Person","name":"ಡಾ. ಜಿ. ಜ್ಞಾನಾನಂದ"},"datePublished":"2013"}},{"@type":"ListItem","position":32,"item":{"@type":"CreativeWork","name":"ಶಕಪುರುಷ ಸಿದ್ದಲಿಂಗ ಸ್ವಾಮಿಗಳು","url":"https://archive.org/details/kashilpa.shakapurushasidd0000lshi","author":{"@type":"Person","name":"ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ"},"datePublished":"2013"}},{"@type":"ListItem","position":33,"item":{"@type":"CreativeWork","name":"ವೆಂಕಟಾಚಲಪತಿ","url":"https://archive.org/details/kashilpa.venkatachalapati0000kvsu","author":{"@type":"Person","name":"ಕೆ. ವಿ. ಸುಬ್ರಮಣ್ಯಂ"},"datePublished":"2014"}},{"@type":"ListItem","position":34,"item":{"@type":"CreativeWork","name":"ಬಾದಾಮಿ ಚಲುಕ್ಯ ದೇವಾಲಯಗಳ ತಲ ವಿನ್ಯಾಸಗಳು","url":"https://archive.org/details/kashilpa.badamichalukyade0000drvi","author":{"@type":"Person","name":"ಡಾ. ವಿರೂಪಾಕ್ಷ ಬಡಿಗೇರ"},"datePublished":"2015"}},{"@type":"ListItem","position":35,"item":{"@type":"CreativeWork","name":"ಬಹುಮುಖೀಯ ಶಿಲ್ಪ ಸಾರ್ವಭೌಮ ಎ. ಕಿರಣ್ ಸುಬ್ಬಯ್ಯ","url":"https://archive.org/details/kashilpa.bahumukkheeyashi0000nbka","author":{"@type":"Person","name":"ಎನ್. ಬಿ. ಕಾವೇರಪ್ಪ"},"datePublished":"2015"}},{"@type":"ListItem","position":36,"item":{"@type":"CreativeWork","name":"ಕನಗನಹಳ್ಳಿಯ ಸ್ತೂಪ ಶಿಲ್ಪಗಳು","url":"https://archive.org/details/kashilpa.kanaganahalliyas0000nata","author":{"@type":"Person","name":"ನಟರಾಜ ಎಂ. ಶಿಲ್ಪಿ"},"datePublished":"2015"}},{"@type":"ListItem","position":37,"item":{"@type":"CreativeWork","name":"ಸಮಕಾಲೀನ ಶಿಲ್ಪಕಲೆಯ ಸಂವೇದನೆಯ ನೆಲೆಗಳು","url":"https://archive.org/details/kashilpa.samakalinashilpa0000drsh","author":{"@type":"Person","name":"ಡಾ. ಶಿವಾನಂದ ಎಚ್. ಬಂಟನೂರ"},"datePublished":"2015"}},{"@type":"ListItem","position":38,"item":{"@type":"CreativeWork","name":"ಬಿದ್ರಿ ಕಲೆ","url":"https://archive.org/details/kashilpa.bidrikale0000drre","author":{"@type":"Person","name":"ಡಾ. ರೆಹಮಾನ್ ಪಟೇಲ್"},"datePublished":"2016"}},{"@type":"ListItem","position":39,"item":{"@type":"CreativeWork","name":"ಚನ್ನಪಟ್ಟಣದ ಚಿತ್ತಾರದ ಗೊಂಬೆಗಳು","url":"https://archive.org/details/kashilpa.channapattanadac0000gvsh","author":{"@type":"Person","name":"ಜಿ. ವಿ. ಶಶಿಕಲಾ"},"datePublished":"2016"}},{"@type":"ListItem","position":40,"item":{"@type":"CreativeWork","name":"ಜಗತ್ತಿನ ಬಿದ್ರಿ ಕಲೆಗಳ ಒಂದು ವಿಶೇಷ ಅಧ್ಯಯನ","url":"https://archive.org/details/kashilpa.jagattinabidrika0000drre","author":{"@type":"Person","name":"ಡಾ. ರೆಹಮಾನ್ ಪಟೇಲ್"},"datePublished":"2016"}},{"@type":"ListItem","position":41,"item":{"@type":"CreativeWork","name":"ಕರ್ನಾಟಕದ ಸ್ತಬ್ಧಚಿತ್ರಗಳು","url":"https://archive.org/details/kashilpa.karnatakastabdha0000basa","author":{"@type":"Person","name":"ಬಸವರಾಜ ಎಲ್"},"datePublished":"2016"}},{"@type":"ListItem","position":42,"item":{"@type":"CreativeWork","name":"ಲೋಹಶಿಲ್ಪಿ ಟಿ. ರಾಘವ ಆಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.lohashilpitragha0000bann","author":{"@type":"Person","name":"ಬನ್ನಂಜೆ ಬಾಬು ಅಮೀನ್"},"datePublished":"2016"}},{"@type":"ListItem","position":43,"item":{"@type":"CreativeWork","name":"ಮಹಾವಿಷ್ಣು ನಿಧಿ","url":"https://archive.org/details/kashilpa.mahavishnunidhi0000kvsu","author":{"@type":"Person","name":"ಕೆ. ವಿ. ಸುಬ್ರಹ್ಮಣ್ಯಂ"},"datePublished":"2016"}},{"@type":"ListItem","position":44,"item":{"@type":"CreativeWork","name":"ರೇಖಾ ರಾಮಾಯಣ ಸಂಪುಟ 3","url":"https://archive.org/details/kashilpa.rekharamayanasam0000kvsu","author":{"@type":"Person","name":"ಕೆ. ವಿ. ಸುಬ್ರಹ್ಮಣ್ಯಂ"},"datePublished":"2016"}},{"@type":"ListItem","position":45,"item":{"@type":"CreativeWork","name":"ಸಮಾಧಿಗಳು ಮತ್ತು ವಾಸ್ತುಶಿಲ್ಪ","url":"https://archive.org/details/kashilpa.samadigalumattuv0000pune","author":{"@type":"Person","name":"ಪುನೀತ್ ಟಿ. ಆರ್"},"datePublished":"2016"}},{"@type":"ListItem","position":46,"item":{"@type":"CreativeWork","name":"ಶಿವ ಶಕ್ತಿ","url":"https://archive.org/details/kashilpa.shivashakti0000kvsu","author":{"@type":"Person","name":"ಕೆ. ವಿ. ಸುಬ್ರಹ್ಮಣ್ಯಂ"},"datePublished":"2016"}},{"@type":"ListItem","position":47,"item":{"@type":"CreativeWork","name":"ಬಸವಕಲ್ಯಾಣದ ವಸ್ತುಸಂಗ್ರಹಾಲಯದಲ್ಲಿನ ಶಿಲ್ಪಗಳು","url":"https://archive.org/details/kashilpa.basavakalyanadav0000drva","author":{"@type":"Person","name":"ಡಾ. ವೈಶಾಲಿಬಾಯಿ ಕಾಂಬಳೆ"},"datePublished":"2017"}},{"@type":"ListItem","position":48,"item":{"@type":"CreativeWork","name":"ಚಿತ್ರದುರ್ಗ ಜಿಲ್ಲೆ ಸಂಪ್ರದಾಯ ಶಿಲ್ಪಕಲೆ: ಚಳ್ಳಕೆರೆ ತಾಲ್ಲೂಕಿನ ಮರ ಮಾಧ್ಯಮದ ರಥ ಶಿಲ್ಪಗಳನ್ನು ಅನಲಕ್ಷಿಸಿ","url":"https://archive.org/details/kashilpa.chitradurgajille0000sani","author":{"@type":"Person","name":"ಸಾಣೀಕೆರೆರಘು"},"datePublished":"2017"}},{"@type":"ListItem","position":49,"item":{"@type":"CreativeWork","name":"ದ್ವಿಲೋಹಶಿಲ್ಪ ರಚನಾ ಆದ್ಯಪ್ರವರ್ತಕ ಎನ್. ಪಿ. ಶ್ರೀನಿವಾಸಾಚಾರ್ಯ","url":"https://archive.org/details/kashilpa.dwilohashilparac0000kavi","author":{"@type":"Person","name":"ಕವಿತ ಡಿ. ಕೆ"},"datePublished":"2017"}},{"@type":"ListItem","position":50,"item":{"@type":"CreativeWork","name":"ಕಮಲಪುರದ ಕೇಂದ್ರ ಪುರಾತತ್ವ ಪ್ರಾಚ್ಯವಸ್ತು ಸಂಗ್ರಹಾಲಯದ ಶಿಲ್ಪಕಲೆ","url":"https://archive.org/details/kashilpa.kamalapurakendra0000drsu","author":{"@type":"Person","name":"ಡಿ. ಆರ್. ಸುರೇಂದ್ರನಾಥ"},"datePublished":"2017"}},{"@type":"ListItem","position":51,"item":{"@type":"CreativeWork","name":"ಕರ್ನಾಟಕದ ಶಿಲ್ಪ ಕಲಾವಿದರು","url":"https://archive.org/details/kashilpa.karnatakadashilp0000drch","author":{"@type":"Person","name":"ಡಾ. ಚೂಡಾಮಣಿ ನಂದಗೋಪಾಲ"},"datePublished":"2017"}},{"@type":"ListItem","position":52,"item":{"@type":"CreativeWork","name":"ಸಗರನಾಡಿನ ಗ್ರಾಮದೇವತೆಗಳು","url":"https://archive.org/details/kashilpa.sagaranadinagram0000sric","author":{"@type":"Person","name":"ಶ್ರೀ ಚಂದ್ರಪ್ಪ ಬಿ. ಕೆ. ಗೋಗಿ"},"datePublished":"2017"}},{"@type":"ListItem","position":53,"item":{"@type":"CreativeWork","name":"ಕರ್ನಾಟಕದ ಶಿಲ್ಪಕಲಾ ಪರಂಪರೆಗೆ ಮೈಸೂರು ರಾಜ ಮನೆತನದ ಕೊಡುಗೆ","url":"https://archive.org/details/kashilpa.karnatakashilpak0000dde","author":{"@type":"Person","name":"ಡಾ. ದೇವರಕೊಂಡಾರೆಡ್ಡಿ"},"datePublished":"2018"}},{"@type":"ListItem","position":54,"item":{"@type":"CreativeWork","name":"ರಾಯಚೂರಿನ ವಸ್ತುಸಂಗ್ರಹಾಲಯ ಹಾಗೂ ಗಬ್ಬೂರಿನ ಶಿಲ್ಪಗಳು","url":"https://archive.org/details/kashilpa.rayachurinavastu0000umav","author":{"@type":"Person","name":"ಉಮಾವತಿ"},"datePublished":"2018"}},{"@type":"ListItem","position":55,"item":{"@type":"CreativeWork","name":"ಕಂಪನಿಮನೆ ಶಿಲ್ಪಿಗಳು","url":"https://archive.org/details/kashilpa.companimaneshilp0000prab","author":{"@type":"Person","name":"ಪ್ರಭಾಕರ"},"datePublished":"2019"}},{"@type":"ListItem","position":56,"item":{"@type":"CreativeWork","name":"ಬೀದರ ಜಿಲ್ಲೆಯ ಐತಿಹಾಸಿಕ ವಾಸ್ತು ಶಿಲ್ಪಗಳ ಒಂದು ಅಧ್ಯಯನ","url":"https://archive.org/details/kashilpa.bidarjilleyaaiti0000suni","author":{"@type":"Person","name":"ಸುನೀಲ ಎ ಪೂಜಾರಿ"}}},{"@type":"ListItem","position":57,"item":{"@type":"CreativeWork","name":"ಬುಡಕಟ್ಟು ಜನಪದ ಶಿಲ್ಪಕಲೆ","url":"https://archive.org/details/kashilpa.budakattujanapad0000ckma","author":{"@type":"Person","name":"ಸಿ. ಕೆ. ಮಹೇಶ್"}}},{"@type":"ListItem","position":58,"item":{"@type":"CreativeWork","name":"ದೇವಾಲಯ ರಥಶಿಲ್ಪ ಮತ್ತು ದೇವಾಲಯ ವಾಸ್ತುಶಿಲ್ಪ","url":"https://archive.org/details/kashilpa.devalayarathashi0000srig","author":{"@type":"Person","name":"ಶ್ರೀ ಗಣೇಶ ಹಿರಿಯಡ್ಕ"}}},{"@type":"ListItem","position":59,"item":{"@type":"CreativeWork","name":"ದೇವರಕಾಡು ಮತ್ತು ಟೆರ್ರಾಕೋಟಾ ಶಿಲ್ಪಗಳು","url":"https://archive.org/details/kashilpa.devarakadumattut0000gowt","author":{"@type":"Person","name":"ಗೌತಮ ಎ. ಎಂ"}}},{"@type":"ListItem","position":60,"item":{"@type":"CreativeWork","name":"ಗಾಜರಕೋಟ್ ಲೋಹ ಶಿಲ್ಪಕಲೆ","url":"https://archive.org/details/kashilpa.gajarakotlohashi0000drla","author":{"@type":"Person","name":"ಡಾ. ಲಕ್ಷ್ಮೀಪತಿ ಜಿ"}}},{"@type":"ListItem","position":61,"item":{"@type":"CreativeWork","name":"ಹೊಯ್ಸಳ ಶಿಲ್ಪಕಲೆ ಶಿಲ್ಪ ಕಲಾ ಸಂಪುಟ 1","url":"https://archive.org/details/kashilpa.hoysalasculpture0000unse","author":{"@type":"Person","name":"ಎನ್. ಮರಿಶಾಮಾಚಾರ್"}}},{"@type":"ListItem","position":62,"item":{"@type":"CreativeWork","name":"ಹೈದ್ರಾಬಾದ ಕರ್ನಾಟಕ ತಳ ಸಮುದಾಯದ ಶಿಲ್ಪಕಲಾವಿದರು","url":"https://archive.org/details/kashilpa.hydrabadakarnata0000drpa","author":{"@type":"Person","name":"ಡಾ. ಪರಶುರಾಮ ಪಿ"}}},{"@type":"ListItem","position":63,"item":{"@type":"CreativeWork","name":"ಕಲಬುರ್ಗಿ ಭಾಗದ ರಾಷ್ಟ್ರಕೂಟರ ದೇವಾಲಯಗಳ ಅಧ್ಯಯನ","url":"https://archive.org/details/kashilpa.kalaburgibhagada0000basa","author":{"@type":"Person","name":"ಬಸವರಾಜ ಮೇತ್ರಿ"}}},{"@type":"ListItem","position":64,"item":{"@type":"CreativeWork","name":"ಕರ್ನಾಟಕದ ಸಮಕಾಲೀನ ಶಿಲ್ಪಕಲೆ","url":"https://archive.org/details/kashilpa.karnatakadasamak0000unse","author":{"@type":"Person","name":"ಎನ್. ಜಿ. ನೀಲಕಂಠಾಚಾರ್"}}},{"@type":"ListItem","position":65,"item":{"@type":"CreativeWork","name":"ಕರ್ನಾಟಕದ ಮಹಿಳಾ ಶಿಲ್ಪಕಲಾವಿದರು ಒಂದು ಅಧ್ಯಯನ","url":"https://archive.org/details/kashilpa.karnatakamahilas0000naya","author":{"@type":"Person","name":"ನಯನಾ ಬಾಬುರಾವ್"}}},{"@type":"ListItem","position":66,"item":{"@type":"CreativeWork","name":"ಮಹಿಷಾಸುರಮರ್ಧಿನಿ ಶಿಲ್ಪ ರಚನೆ","url":"https://archive.org/details/kashilpa.mahishasuramardh0000drch","author":{"@type":"Person","name":"ಡಾ. ಚೂಡಾಮಣಿ ನಂದಗೋಪಾಲ್"}}},{"@type":"ListItem","position":67,"item":{"@type":"CreativeWork","name":"ಸಗರನಾಡಿನ ಜನಪದ ಶಿಲ್ಪಿಗಳ ಕಲೆ ಮತ್ತು ಬದುಕು ಒಂದು ಅಧ್ಯಯನ","url":"https://archive.org/details/kashilpa.sagaranadinajana0000basa","author":{"@type":"Person","name":"ಬಸವರಜ ಎಸ್ ಕಲೆಗಾರ"}}},{"@type":"ListItem","position":68,"item":{"@type":"CreativeWork","name":"ಶಿಲ್ಪಸಿದ್ದಾಂತಿ ಶ್ರೀ ಸಿದ್ದಲಿಂಗ ಸ್ವಾಮಿಗಳು","url":"https://archive.org/details/kashilpa.shrisiddalingasv0000unse","author":{"@type":"Person","name":"ಎನ್. ಮರಿಶಾಮಾಚಾರ್"}}}]}}</script>
 </head>
-
 <body>
-    <!-- ==========================
-    NAVBAR
-    =========================== -->
-    <div class="navbar navbar-fixed-top jshead">
-        <div class="academic-logo">
-            <img  src="/img/shilpakale.jpg" />
-        </div>
-        <div class="sanchaya-logo">
-            <img src="./img/logo_sanchaya.png" alt="javascript tutorials" width="200" height="54">
-            <h1>ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ</h1>
-            <h2>ಡಿಜಿಟಲ್ ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ಸಾಹಿತ್ಯದ ಪುಸ್ತಕಗಳು‍</h2>
-            <div class="">
-                <a href="https://sanchifoundation.org" id="sanchi">ಸಂಚಿ ಫೌಂಡೇಶನ್</a>
-                |
-                <a href="https://sanchaya.org" id="sanchaya">ಸಂಚಯ</a>
-            </div>
-            <div class="clear"></div>
-            <a href="#" id="infos">?</a>
+<a class="skip" href="#list">Skip to the list</a>
 
-            <div id="twittit">
-                <a href="https://twitter.com/_sanchaya" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @_sanchaya</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div>
-        <!--
-        <div class="container">
-        <center><form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FTB1pZqrFP6jrt"> </script> </form>
-        </center>
-      </div>
-    -->
-    </div>
+<header class="top">
+  <div class="brand"><a class="logo" href="./" aria-label="ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು"><img src="./img/logo.png" alt="" height="40"></a>
+  <h1>ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು</h1><div class="orgs"></div></div>
+  <p class="tagline"></p>
+  <section class="about"><h2>About this collection</h2><p>ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!</p></section>
+  <section class="author"><div><p>ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿಯು ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಅಧಿಸೂಚನೆ ಸಂಖ್ಯೆ:ಸಂಕಇ:69:ಕರಅ:95 ಬೆಂಗಳೂರು, ದಿನಾಂಕ:21-12-1995ರ ಆದೇಶದಂತೆ ಕರ್ನಾಟಕ ಲಲಿತಕಲಾ ಅಕಾಡೆಮಿಯಿಂದ ಪ್ರತ್ಯೇಕಗೊಂಡು ಸ್ಥಾಪನೆಯಾಯಿತು. ಅಕಾಡೆಮಿ ಸ್ಥಾಪನೆಗೊಂಡು ಇದುವರೆವಿಗೂ ಕರ್ನಾಟಕದಲ್ಲಿ ಸಾಂಪ್ರದಾಯಿಕ ಶಿಲ್ಪಕಲಾ ಪರಂಪರೆ ಹಾಗೂ ಸಮಕಾಲೀನ ಶಿಲ್ಪ ಪ್ರಕಾರಗಳ ಬೆಳವಣಿಗೆಗಾಗಿ ಶ್ರಮಿಸುತ್ತಿದ್ದು, ನಶಿಸುತ್ತಿರುವ ನಮ್ಮ ಶಿಲ್ಪಕಲಾ ಶೈಲಿಗಳನ್ನೂ ಗುರುತಿಸಿ ಅನೇಕ ಪ್ರಗತಿಪರ ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಹಮ್ಮಿಕೊಂಡು ಶಿಲ್ಪಕಲಾ ಬೆಳವಣಿಗೆಗೆ ಕಂಕಣಬದ್ಧವಾಗಿದೆ. ಇತ್ತೀಚಿನ ದಿನಗಳಲ್ಲಿ ಶಿಲ್ಪಕಲೆಯ ಮಹತ್ವದ ಬಗ್ಗೆ ಅರಿವು ಮೂಡಿಸುವ ಕಾರ್ಯಕ್ರಮಗಳು ನಡೆದು, ಶಿಲ್ಪ ಶಿಬಿರಗಳನ್ನು ನಡೆಸಿ ಶಿಲ್ಪಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಆ ಪರಿಸರದಲ್ಲೇ ಪ್ರದರ್ಶಿಸಿ ಜನರಲ್ಲಿ ಶಿಲ್ಪದ ಪ್ರಜ್ಞೆ ಮೂಡಿಸಲು ಸಹಕಾರಿಯಾಗುತ್ತಿದೆ. ಸಮಗ್ರವಾಗಿ ಶಿಲ್ಪಕಲೆಯು ಬೆಳೆಯಲು ಪೂರಕವಾಗಿ ಕೆಲಸ ನಿರ್ವಹಿಸುತ್ತಿದ್ದು, ಅಕಾಡೆಮಿಯು ಕೈಗೊಂಡು ತನ್ನ ಕಾರ್ಯ ವ್ಯಾಪ್ತಿಯನ್ನು ವಿಸ್ತರಿಸಿಕೊಂಡು ಶಿಲ್ಪಕಲೆ ಬೆಳವಣಿಗೆಗೆ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿಯು ತನ್ನದೇ ಆದ ಕೊಡುಗೆ ನೀಡುತ್ತಿದೆ. ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!</p></div></section>
+</header>
 
-    <!-- ==========================
-    TOGGLE INFOS
-    =========================== -->
-    <div class="container" id="jsinfos">
-        <div class="row">
-            <div class="span6">
-                <h4>ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು</h4>
-                <hr>
-                <p> "ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!. ಈ ಕಾರ್ಯಕ್ಕೆ ಆಸಕ್ತರು, ಪುಸ್ತಕಗಳನ್ನು ಹೊಂದಿರುವವರು,
-                ನಮ್ಮ ತಾಂತ್ರಿಕ ಕೆಲಸಗಳಿಗೆ ಸಹಕರಿಸುವವರು, ಯಾರು ಬೇಕಾದರೂ ಕೈ ಜೋಡಿಸಬಹುದು. ಸಂಪರ್ಕಿಸಿ dev@sanchaya.net</p>
-            </div>
-            <div class="span6">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-text="ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು - ಸಂಚಯದ ಪುಸ್ತಕ ಡಿಜಿಟಲೀಕರಣ ಯೋಜನೆಯ ಭಾಗವಾಗಿದೆ"‍ data-via="_sanchaya"></a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div>
-    </div>
+<div class="bar">
+  <div class="controls" role="search">
+    <label class="sr" for="q">Search</label>
+    <input id="q" type="search" placeholder="Search title, author, year…" autocomplete="off" enterkeyhint="search">
+    <button id="rand" type="button" class="btn">Random issue</button>
+  </div>
+  <div class="pills" id="pills"><button type="button" class="pill" data-year="any" aria-pressed="true">All</button><button type="button" class="pill" data-year="1996" aria-pressed="false">1996</button><button type="button" class="pill" data-year="1998" aria-pressed="false">1998</button><button type="button" class="pill" data-year="1999" aria-pressed="false">1999</button><button type="button" class="pill" data-year="2000" aria-pressed="false">2000</button><button type="button" class="pill" data-year="2001" aria-pressed="false">2001</button><button type="button" class="pill" data-year="2002" aria-pressed="false">2002</button><button type="button" class="pill" data-year="2004" aria-pressed="false">2004</button><button type="button" class="pill" data-year="2006" aria-pressed="false">2006</button><button type="button" class="pill" data-year="2007" aria-pressed="false">2007</button><button type="button" class="pill" data-year="2008" aria-pressed="false">2008</button><button type="button" class="pill" data-year="2011" aria-pressed="false">2011</button><button type="button" class="pill" data-year="2012" aria-pressed="false">2012</button><button type="button" class="pill" data-year="2013" aria-pressed="false">2013</button><button type="button" class="pill" data-year="2014" aria-pressed="false">2014</button><button type="button" class="pill" data-year="2015" aria-pressed="false">2015</button><button type="button" class="pill" data-year="2016" aria-pressed="false">2016</button><button type="button" class="pill" data-year="2017" aria-pressed="false">2017</button><button type="button" class="pill" data-year="2018" aria-pressed="false">2018</button><button type="button" class="pill" data-year="2019" aria-pressed="false">2019</button><button type="button" class="pill" data-year="unknown" aria-pressed="false">Year unknown</button></div>
+  <div class="pills" id="vols"><span class="sr">Vol.</span><button type="button" class="pill" data-vol="any" aria-pressed="true">All volumes</button><button type="button" class="pill" data-vol="1" aria-pressed="false">Vol. 1</button><button type="button" class="pill" data-vol="3" aria-pressed="false">Vol. 3</button></div>
+  <div class="pills" id="langs"></div>
+  <div class="pills" id="topics"></div>
+  <p id="count" class="count" aria-live="polite">68 / 68 items</p>
+</div>
 
-    <!-- ==========================
-    JOB / PYTHONBOOKS
-    =========================== -->
+<main id="list" tabindex="-1">
+<ul class="cards"><li class="card" data-id="kashilpa.jakanacharya0000ckna" data-year="1996" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.jakanacharya0000ckna" data-title="ಜಕಣಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.jakanacharya0000ckna" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.jakanacharya0000ckna" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.jakanacharya0000ckna" data-title="ಜಕಣಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.jakanacharya0000ckna" target="_blank" rel="noopener">ಜಕಣಾಚಾರ್ಯ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%B8%E0%B2%BF.+%E0%B2%95%E0%B3%86.+%E0%B2%A8%E0%B2%BE%E0%B2%97%E0%B2%B0%E0%B2%BE%E0%B2%9C+%E0%B2%B0%E0%B2%BE%E0%B2%B5%E0%B3%8D%22" target="_blank" rel="noopener">ಸಿ. ಕೆ. ನಾಗರಾಜ ರಾವ್</a></p><p class="meta">274 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.jakanacharya0000ckna" data-title="ಜಕಣಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.jakanacharya0000ckna" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.jakanacharya0000ckna" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.kalaradhane0000drko" data-year="1996" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.kalaradhane0000drko" data-title="ಕಲಾರಾಧನೆ" href="https://archive.org/details/kashilpa.kalaradhane0000drko" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.kalaradhane0000drko" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.kalaradhane0000drko" data-title="ಕಲಾರಾಧನೆ" href="https://archive.org/details/kashilpa.kalaradhane0000drko" target="_blank" rel="noopener">ಕಲಾರಾಧನೆ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%95%E0%B3%8A%E0%B2%82%E0%B2%A1%E0%B3%82%E0%B2%B0%E0%B3%81+%E0%B2%B5%E0%B3%80%E0%B2%B0+%E0%B2%B0%E0%B2%BE%E0%B2%98%E0%B2%B5%E0%B2%BE%E0%B2%9A%E0%B2%BE%E0%B2%B0%E0%B3%8D%E0%B2%AF%E0%B3%81%E0%B2%B2%E0%B3%81%22" target="_blank" rel="noopener">ಡಾ. ಕೊಂಡೂರು ವೀರ ರಾಘವಾಚಾರ್ಯುಲು</a></p><p class="meta">110 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.kalaradhane0000drko" data-title="ಕಲಾರಾಧನೆ" href="https://archive.org/details/kashilpa.kalaradhane0000drko" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.kalaradhane0000drko" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.shilpisankula0000prti" data-year="1996" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.shilpisankula0000prti" data-title="ಶಿಲ್ಪಿ ಸಂಕುಲ" href="https://archive.org/details/kashilpa.shilpisankula0000prti" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.shilpisankula0000prti" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.shilpisankula0000prti" data-title="ಶಿಲ್ಪಿ ಸಂಕುಲ" href="https://archive.org/details/kashilpa.shilpisankula0000prti" target="_blank" rel="noopener">ಶಿಲ್ಪಿ ಸಂಕುಲ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%AA%E0%B2%BF.+%E0%B2%86%E0%B2%B0%E0%B3%8D.+%E0%B2%A4%E0%B2%BF%E0%B2%AA%E0%B3%8D%E0%B2%AA%E0%B3%87%E0%B2%B8%E0%B3%8D%E0%B2%B5%E0%B2%BE%E0%B2%AE%E0%B2%BF%22" target="_blank" rel="noopener">ಪಿ. ಆರ್. ತಿಪ್ಪೇಸ್ವಾಮಿ</a></p><p class="meta">190 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.shilpisankula0000prti" data-title="ಶಿಲ್ಪಿ ಸಂಕುಲ" href="https://archive.org/details/kashilpa.shilpisankula0000prti" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.shilpisankula0000prti" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.shilpabrahmacpar0000dral" data-year="1998" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.shilpabrahmacpar0000dral" data-title="ಶಿಲ್ಪಬ್ರಹ್ಮ ಸಿ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.shilpabrahmacpar0000dral" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.shilpabrahmacpar0000dral" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.shilpabrahmacpar0000dral" data-title="ಶಿಲ್ಪಬ್ರಹ್ಮ ಸಿ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.shilpabrahmacpar0000dral" target="_blank" rel="noopener">ಶಿಲ್ಪಬ್ರಹ್ಮ ಸಿ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%85.+%E0%B2%B2.+%E0%B2%A8%E0%B2%B0%E0%B2%B8%E0%B2%BF%E0%B2%82%E0%B2%B9%E0%B2%A8%E0%B3%8D%22" target="_blank" rel="noopener">ಡಾ. ಅ. ಲ. ನರಸಿಂಹನ್</a></p><p class="meta">98 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.shilpabrahmacpar0000dral" data-title="ಶಿಲ್ಪಬ್ರಹ್ಮ ಸಿ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.shilpabrahmacpar0000dral" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.shilpabrahmacpar0000dral" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.utungakusalashil0000kana" data-year="1998" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.utungakusalashil0000kana" data-title="ಉತ್ತುಂಗ ಕುಶಲಶಿಲ್ಪಿ ದೇವಲಕುಂದ ವಾದಿರಾಜ್" href="https://archive.org/details/kashilpa.utungakusalashil0000kana" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.utungakusalashil0000kana" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.utungakusalashil0000kana" data-title="ಉತ್ತುಂಗ ಕುಶಲಶಿಲ್ಪಿ ದೇವಲಕುಂದ ವಾದಿರಾಜ್" href="https://archive.org/details/kashilpa.utungakusalashil0000kana" target="_blank" rel="noopener">ಉತ್ತುಂಗ ಕುಶಲಶಿಲ್ಪಿ ದೇವಲಕುಂದ ವಾದಿರಾಜ್</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%95%E0%B2%A8%E0%B2%95%E0%B2%AE%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%A4%E0%B2%BF%22" target="_blank" rel="noopener">ಕನಕಮೂರ್ತಿ</a></p><p class="meta">126 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.utungakusalashil0000kana" data-title="ಉತ್ತುಂಗ ಕುಶಲಶಿಲ್ಪಿ ದೇವಲಕುಂದ ವಾದಿರಾಜ್" href="https://archive.org/details/kashilpa.utungakusalashil0000kana" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.utungakusalashil0000kana" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.sathvikashilpina0000lshi" data-year="1999" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.sathvikashilpina0000lshi" data-title="ಸಾಥ್ವಿಕ ಶಿಲ್ಪಿ ನಾಗೇಂದ್ರ ಸ್ಥಪತಿ" href="https://archive.org/details/kashilpa.sathvikashilpina0000lshi" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.sathvikashilpina0000lshi" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.sathvikashilpina0000lshi" data-title="ಸಾಥ್ವಿಕ ಶಿಲ್ಪಿ ನಾಗೇಂದ್ರ ಸ್ಥಪತಿ" href="https://archive.org/details/kashilpa.sathvikashilpina0000lshi" target="_blank" rel="noopener">ಸಾಥ್ವಿಕ ಶಿಲ್ಪಿ ನಾಗೇಂದ್ರ ಸ್ಥಪತಿ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%B2%E0%B3%8D.+%E0%B2%B6%E0%B2%BF%E0%B2%B5%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B2%AA%E0%B3%8D%E0%B2%AA%22" target="_blank" rel="noopener">ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ</a></p><p class="meta">86 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.sathvikashilpina0000lshi" data-title="ಸಾಥ್ವಿಕ ಶಿಲ್ಪಿ ನಾಗೇಂದ್ರ ಸ್ಥಪತಿ" href="https://archive.org/details/kashilpa.sathvikashilpina0000lshi" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.sathvikashilpina0000lshi" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.silpasiddhantisr0000nmar" data-year="1999" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.silpasiddhantisr0000nmar" data-title="ಶಿಲ್ಪ ಸಿದ್ದಾಂತಿ ಶ್ರೀ ಸಿದ್ದಲಿಂಗ ಸ್ವಾಮಿಗಳು" href="https://archive.org/details/kashilpa.silpasiddhantisr0000nmar" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.silpasiddhantisr0000nmar" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.silpasiddhantisr0000nmar" data-title="ಶಿಲ್ಪ ಸಿದ್ದಾಂತಿ ಶ್ರೀ ಸಿದ್ದಲಿಂಗ ಸ್ವಾಮಿಗಳು" href="https://archive.org/details/kashilpa.silpasiddhantisr0000nmar" target="_blank" rel="noopener">ಶಿಲ್ಪ ಸಿದ್ದಾಂತಿ ಶ್ರೀ ಸಿದ್ದಲಿಂಗ ಸ್ವಾಮಿಗಳು</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%A8%E0%B3%8D.+%E0%B2%AE%E0%B2%B0%E0%B2%BF%E0%B2%B6%E0%B2%BE%E0%B2%AE%E0%B2%BE%E0%B2%9A%E0%B2%BE%E0%B2%B0%E0%B3%8D%22" target="_blank" rel="noopener">ಎನ್. ಮರಿಶಾಮಾಚಾರ್</a></p><p class="meta">78 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.silpasiddhantisr0000nmar" data-title="ಶಿಲ್ಪ ಸಿದ್ದಾಂತಿ ಶ್ರೀ ಸಿದ್ದಲಿಂಗ ಸ್ವಾಮಿಗಳು" href="https://archive.org/details/kashilpa.silpasiddhantisr0000nmar" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.silpasiddhantisr0000nmar" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.bharathiyashilpa0000nmar" data-year="2000" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.bharathiyashilpa0000nmar" data-title="ಭಾರತೀಯ ಶಿಲ್ಪಕಲೆ" href="https://archive.org/details/kashilpa.bharathiyashilpa0000nmar" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.bharathiyashilpa0000nmar" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.bharathiyashilpa0000nmar" data-title="ಭಾರತೀಯ ಶಿಲ್ಪಕಲೆ" href="https://archive.org/details/kashilpa.bharathiyashilpa0000nmar" target="_blank" rel="noopener">ಭಾರತೀಯ ಶಿಲ್ಪಕಲೆ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%A8%E0%B3%8D.+%E0%B2%AE%E0%B2%B0%E0%B2%BF%E0%B2%B6%E0%B2%BE%E0%B2%AE%E0%B2%BE%E0%B2%9A%E0%B2%BE%E0%B2%B0%E0%B3%8D%22" target="_blank" rel="noopener">ಎನ್. ಮರಿಶಾಮಾಚಾರ್</a></p><p class="meta">134 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.bharathiyashilpa0000nmar" data-title="ಭಾರತೀಯ ಶಿಲ್ಪಕಲೆ" href="https://archive.org/details/kashilpa.bharathiyashilpa0000nmar" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.bharathiyashilpa0000nmar" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.kshamarayacharya0000kava" data-year="2000" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.kshamarayacharya0000kava" data-title="ಕೆ. ಶಾಮರಾಯಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.kshamarayacharya0000kava" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.kshamarayacharya0000kava" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.kshamarayacharya0000kava" data-title="ಕೆ. ಶಾಮರಾಯಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.kshamarayacharya0000kava" target="_blank" rel="noopener">ಕೆ. ಶಾಮರಾಯಾಚಾರ್ಯ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%95%E0%B2%BE.+%E0%B2%B5%E0%B2%BE.+%E0%B2%86%E0%B2%9A%E0%B2%BE%E0%B2%B0%E0%B3%8D%E0%B2%AF+%E0%B2%B6%E0%B2%BF%E0%B2%B0%E0%B3%8D%E0%B2%B5%22" target="_blank" rel="noopener">ಕಾ. ವಾ. ಆಚಾರ್ಯ ಶಿರ್ವ</a></p><p class="meta">66 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.kshamarayacharya0000kava" data-title="ಕೆ. ಶಾಮರಾಯಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.kshamarayacharya0000kava" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.kshamarayacharya0000kava" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.shilpakalaaradha0000nmar" data-year="2000" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.shilpakalaaradha0000nmar" data-title="ಶಿಲ್ಪಕಲಾ ಆರಾಧಕರು" href="https://archive.org/details/kashilpa.shilpakalaaradha0000nmar" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.shilpakalaaradha0000nmar" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.shilpakalaaradha0000nmar" data-title="ಶಿಲ್ಪಕಲಾ ಆರಾಧಕರು" href="https://archive.org/details/kashilpa.shilpakalaaradha0000nmar" target="_blank" rel="noopener">ಶಿಲ್ಪಕಲಾ ಆರಾಧಕರು</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%A8%E0%B3%8D.+%E0%B2%AE%E0%B2%B0%E0%B2%BF%E0%B2%B6%E0%B2%BE%E0%B2%AE%E0%B2%BE%E0%B2%9A%E0%B2%BE%E0%B2%B0%E0%B3%8D%22" target="_blank" rel="noopener">ಎನ್. ಮರಿಶಾಮಾಚಾರ್</a></p><p class="meta">86 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.shilpakalaaradha0000nmar" data-title="ಶಿಲ್ಪಕಲಾ ಆರಾಧಕರು" href="https://archive.org/details/kashilpa.shilpakalaaradha0000nmar" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.shilpakalaaradha0000nmar" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.varashilpigundap0000viru" data-year="2000" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.varashilpigundap0000viru" data-title="ವರಶಿಲ್ಪಿ ಗುಂಡಪ್ಪ ಮಯಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.varashilpigundap0000viru" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.varashilpigundap0000viru" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.varashilpigundap0000viru" data-title="ವರಶಿಲ್ಪಿ ಗುಂಡಪ್ಪ ಮಯಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.varashilpigundap0000viru" target="_blank" rel="noopener">ವರಶಿಲ್ಪಿ ಗುಂಡಪ್ಪ ಮಯಾಚಾರ್ಯ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%B5%E0%B2%BF%E0%B2%B0%E0%B3%82%E0%B2%AA%E0%B2%BE%E0%B2%95%E0%B3%8D%E0%B2%B7+%E0%B2%AC%E0%B2%A1%E0%B2%BF%E0%B2%97%E0%B3%87%E0%B2%B0%22" target="_blank" rel="noopener">ವಿರೂಪಾಕ್ಷ ಬಡಿಗೇರ</a></p><p class="meta">74 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.varashilpigundap0000viru" data-title="ವರಶಿಲ್ಪಿ ಗುಂಡಪ್ಪ ಮಯಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.varashilpigundap0000viru" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.varashilpigundap0000viru" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.ngneelakantachar0000lshi" data-year="2001" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.ngneelakantachar0000lshi" data-title="ಎನ್. ಜಿ. ನೀಲಕಂಠಾಚಾರ್" href="https://archive.org/details/kashilpa.ngneelakantachar0000lshi" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.ngneelakantachar0000lshi" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.ngneelakantachar0000lshi" data-title="ಎನ್. ಜಿ. ನೀಲಕಂಠಾಚಾರ್" href="https://archive.org/details/kashilpa.ngneelakantachar0000lshi" target="_blank" rel="noopener">ಎನ್. ಜಿ. ನೀಲಕಂಠಾಚಾರ್</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%B2%E0%B3%8D.+%E0%B2%B6%E0%B2%BF%E0%B2%B5%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B2%AA%E0%B3%8D%E0%B2%AA%22" target="_blank" rel="noopener">ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ</a></p><p class="meta">68 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.ngneelakantachar0000lshi" data-title="ಎನ್. ಜಿ. ನೀಲಕಂಠಾಚಾರ್" href="https://archive.org/details/kashilpa.ngneelakantachar0000lshi" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.ngneelakantachar0000lshi" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.kalacharitrepart0000nmar" data-year="2002" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.kalacharitrepart0000nmar" data-title="ಕಲಾಚರಿತ್ರೆ ಭಾಗ 1" href="https://archive.org/details/kashilpa.kalacharitrepart0000nmar" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.kalacharitrepart0000nmar" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.kalacharitrepart0000nmar" data-title="ಕಲಾಚರಿತ್ರೆ ಭಾಗ 1" href="https://archive.org/details/kashilpa.kalacharitrepart0000nmar" target="_blank" rel="noopener">ಕಲಾಚರಿತ್ರೆ ಭಾಗ 1</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%A8%E0%B3%8D.+%E0%B2%AE%E0%B2%B0%E0%B2%BF%E0%B2%B6%E0%B2%BE%E0%B2%AE%E0%B2%BE%E0%B2%9A%E0%B2%BE%E0%B2%B0%E0%B3%8D%22" target="_blank" rel="noopener">ಎನ್. ಮರಿಶಾಮಾಚಾರ್</a></p><p class="meta">220 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.kalacharitrepart0000nmar" data-title="ಕಲಾಚರಿತ್ರೆ ಭಾಗ 1" href="https://archive.org/details/kashilpa.kalacharitrepart0000nmar" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.kalacharitrepart0000nmar" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.cprajaram0000kvsu" data-year="2004" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.cprajaram0000kvsu" data-title="ಸಿ. ಪಿ. ರಾಜರಾಂ" href="https://archive.org/details/kashilpa.cprajaram0000kvsu" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.cprajaram0000kvsu" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.cprajaram0000kvsu" data-title="ಸಿ. ಪಿ. ರಾಜರಾಂ" href="https://archive.org/details/kashilpa.cprajaram0000kvsu" target="_blank" rel="noopener">ಸಿ. ಪಿ. ರಾಜರಾಂ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%95%E0%B3%86.+%E0%B2%B5%E0%B2%BF.+%E0%B2%B8%E0%B3%81%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%B9%E0%B3%8D%E0%B2%AE%E0%B2%A3%E0%B3%8D%E0%B2%AF%E0%B2%82%22" target="_blank" rel="noopener">ಕೆ. ವಿ. ಸುಬ್ರಹ್ಮಣ್ಯಂ</a></p><p class="meta">56 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.cprajaram0000kvsu" data-title="ಸಿ. ಪಿ. ರಾಜರಾಂ" href="https://archive.org/details/kashilpa.cprajaram0000kvsu" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.cprajaram0000kvsu" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.dhanjayashilpi0000drve" data-year="2004" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.dhanjayashilpi0000drve" data-title="ಧನಂಜಯ ಶಿಲ್ಪಿ" href="https://archive.org/details/kashilpa.dhanjayashilpi0000drve" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.dhanjayashilpi0000drve" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.dhanjayashilpi0000drve" data-title="ಧನಂಜಯ ಶಿಲ್ಪಿ" href="https://archive.org/details/kashilpa.dhanjayashilpi0000drve" target="_blank" rel="noopener">ಧನಂಜಯ ಶಿಲ್ಪಿ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%B5%E0%B3%80%E0%B2%B0%E0%B3%87%E0%B2%B6%E0%B3%8D+%E0%B2%8E%E0%B2%B8%E0%B3%8D.+%E0%B2%AC%E0%B2%A1%E0%B2%BF%E0%B2%97%E0%B3%87%E0%B2%B0%E0%B3%8D%22" target="_blank" rel="noopener">ಡಾ. ವೀರೇಶ್ ಎಸ್. ಬಡಿಗೇರ್</a></p><p class="meta">54 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.dhanjayashilpi0000drve" data-title="ಧನಂಜಯ ಶಿಲ್ಪಿ" href="https://archive.org/details/kashilpa.dhanjayashilpi0000drve" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.dhanjayashilpi0000drve" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.manasara0000shil" data-year="2004" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.manasara0000shil" data-title="ಮಾನಸಾರ" href="https://archive.org/details/kashilpa.manasara0000shil" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.manasara0000shil" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.manasara0000shil" data-title="ಮಾನಸಾರ" href="https://archive.org/details/kashilpa.manasara0000shil" target="_blank" rel="noopener">ಮಾನಸಾರ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%B6%E0%B2%BF%E0%B2%B2%E0%B3%8D%E0%B2%AA%E0%B2%BF+%E0%B2%B8%E0%B2%BF%E0%B2%A6%E0%B3%8D%E0%B2%A6%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B2%B8%E0%B3%8D%E0%B2%B5%E0%B2%BE%E0%B2%AE%E0%B2%BF%22" target="_blank" rel="noopener">ಶಿಲ್ಪಿ ಸಿದ್ದಲಿಂಗಸ್ವಾಮಿ</a></p><p class="meta">34 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.manasara0000shil" data-title="ಮಾನಸಾರ" href="https://archive.org/details/kashilpa.manasara0000shil" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.manasara0000shil" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.mparameshwaracha0000drmp" data-year="2004" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.mparameshwaracha0000drmp" data-title="ಎಂ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.mparameshwaracha0000drmp" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.mparameshwaracha0000drmp" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.mparameshwaracha0000drmp" data-title="ಎಂ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.mparameshwaracha0000drmp" target="_blank" rel="noopener">ಎಂ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%8E%E0%B2%82.+%E0%B2%AA%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%B5%E0%B2%BE%E0%B2%9A%E0%B2%BE%E0%B2%B0%E0%B3%8D%22" target="_blank" rel="noopener">ಡಾ. ಎಂ. ಪೂರ್ವಾಚಾರ್</a></p><p class="meta">66 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.mparameshwaracha0000drmp" data-title="ಎಂ. ಪರಮೇಶ್ವರಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.mparameshwaracha0000drmp" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.mparameshwaracha0000drmp" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.lohaphalakamaant0000cskr" data-year="2006" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.lohaphalakamaant0000cskr" data-title="ಲೋಹಫಲಕ ಮಾಂತ್ರಿಕ" href="https://archive.org/details/kashilpa.lohaphalakamaant0000cskr" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.lohaphalakamaant0000cskr" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.lohaphalakamaant0000cskr" data-title="ಲೋಹಫಲಕ ಮಾಂತ್ರಿಕ" href="https://archive.org/details/kashilpa.lohaphalakamaant0000cskr" target="_blank" rel="noopener">ಲೋಹಫಲಕ ಮಾಂತ್ರಿಕ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%9A%E0%B2%BF.+%E0%B2%B8%E0%B3%81.+%E0%B2%95%E0%B3%83%E0%B2%B7%E0%B3%8D%E0%B2%A3+%E0%B2%B8%E0%B3%86%E0%B2%9F%E0%B3%8D%E0%B2%9F%E0%B2%BF%22" target="_blank" rel="noopener">ಚಿ. ಸು. ಕೃಷ್ಣ ಸೆಟ್ಟಿ</a></p><p class="meta">62 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.lohaphalakamaant0000cskr" data-title="ಲೋಹಫಲಕ ಮಾಂತ್ರಿಕ" href="https://archive.org/details/kashilpa.lohaphalakamaant0000cskr" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.lohaphalakamaant0000cskr" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.shilpavenkatacha0000lshi" data-year="2006" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.shilpavenkatacha0000lshi" data-title="ಶಿಲ್ಪಿ ವೆಂಕಟಾಚಾರ್" href="https://archive.org/details/kashilpa.shilpavenkatacha0000lshi" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.shilpavenkatacha0000lshi" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.shilpavenkatacha0000lshi" data-title="ಶಿಲ್ಪಿ ವೆಂಕಟಾಚಾರ್" href="https://archive.org/details/kashilpa.shilpavenkatacha0000lshi" target="_blank" rel="noopener">ಶಿಲ್ಪಿ ವೆಂಕಟಾಚಾರ್</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%B2%E0%B3%8D.+%E0%B2%B6%E0%B2%BF%E0%B2%B5%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B2%AA%E0%B3%8D%E0%B2%AA%22" target="_blank" rel="noopener">ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ</a></p><p class="meta">56 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.shilpavenkatacha0000lshi" data-title="ಶಿಲ್ಪಿ ವೆಂಕಟಾಚಾರ್" href="https://archive.org/details/kashilpa.shilpavenkatacha0000lshi" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.shilpavenkatacha0000lshi" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.kannadashilpakal0000kvsu" data-year="2007" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.kannadashilpakal0000kvsu" data-title="ಕನ್ನಡ ಶಿಲ್ಪಕಲೆಯ ಸಮಕಾಲೀನ ದೃಶ್ಯ" href="https://archive.org/details/kashilpa.kannadashilpakal0000kvsu" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.kannadashilpakal0000kvsu" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.kannadashilpakal0000kvsu" data-title="ಕನ್ನಡ ಶಿಲ್ಪಕಲೆಯ ಸಮಕಾಲೀನ ದೃಶ್ಯ" href="https://archive.org/details/kashilpa.kannadashilpakal0000kvsu" target="_blank" rel="noopener">ಕನ್ನಡ ಶಿಲ್ಪಕಲೆಯ ಸಮಕಾಲೀನ ದೃಶ್ಯ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%95%E0%B3%86.+%E0%B2%B5%E0%B2%BF.+%E0%B2%B8%E0%B3%81%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%B9%E0%B3%8D%E0%B2%AE%E0%B2%A3%E0%B3%8D%E0%B2%AF%E0%B2%82%22" target="_blank" rel="noopener">ಕೆ. ವಿ. ಸುಬ್ರಹ್ಮಣ್ಯಂ</a></p><p class="meta">178 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.kannadashilpakal0000kvsu" data-title="ಕನ್ನಡ ಶಿಲ್ಪಕಲೆಯ ಸಮಕಾಲೀನ ದೃಶ್ಯ" href="https://archive.org/details/kashilpa.kannadashilpakal0000kvsu" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.kannadashilpakal0000kvsu" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.gurushishyaparam0000lshi" data-year="2008" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.gurushishyaparam0000lshi" data-title="ಗುರು-ಶಿಷ್ಯ ಪರಂಪರೆಯನ್ನುಳಿಸಿದ ಶಿಲ್ಪಿ ಬಸವಣ್ಣ" href="https://archive.org/details/kashilpa.gurushishyaparam0000lshi" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.gurushishyaparam0000lshi" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.gurushishyaparam0000lshi" data-title="ಗುರು-ಶಿಷ್ಯ ಪರಂಪರೆಯನ್ನುಳಿಸಿದ ಶಿಲ್ಪಿ ಬಸವಣ್ಣ" href="https://archive.org/details/kashilpa.gurushishyaparam0000lshi" target="_blank" rel="noopener">ಗುರು-ಶಿಷ್ಯ ಪರಂಪರೆಯನ್ನುಳಿಸಿದ ಶಿಲ್ಪಿ ಬಸವಣ್ಣ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%B2%E0%B3%8D.+%E0%B2%B6%E0%B2%BF%E0%B2%B5%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B2%AA%E0%B3%8D%E0%B2%AA%22" target="_blank" rel="noopener">ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ</a></p><p class="meta">78 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.gurushishyaparam0000lshi" data-title="ಗುರು-ಶಿಷ್ಯ ಪರಂಪರೆಯನ್ನುಳಿಸಿದ ಶಿಲ್ಪಿ ಬಸವಣ್ಣ" href="https://archive.org/details/kashilpa.gurushishyaparam0000lshi" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.gurushishyaparam0000lshi" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.nammadani0000srim" data-year="2008" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.nammadani0000srim" data-title="ನಮ್ಮ ದನಿ" href="https://archive.org/details/kashilpa.nammadani0000srim" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.nammadani0000srim" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.nammadani0000srim" data-title="ನಮ್ಮ ದನಿ" href="https://archive.org/details/kashilpa.nammadani0000srim" target="_blank" rel="noopener">ನಮ್ಮ ದನಿ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%B6%E0%B3%8D%E0%B2%B0%E0%B3%80%E0%B2%AE%E0%B2%A4%E0%B2%BF+%E0%B2%95%E0%B2%A8%E0%B2%95%E0%B2%AE%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%A4%E0%B2%BF%22" target="_blank" rel="noopener">ಶ್ರೀಮತಿ ಕನಕಮೂರ್ತಿ</a></p><p class="meta">110 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.nammadani0000srim" data-title="ನಮ್ಮ ದನಿ" href="https://archive.org/details/kashilpa.nammadani0000srim" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.nammadani0000srim" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.rsnvyakthimattuk0000prof" data-year="2008" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.rsnvyakthimattuk0000prof" data-title="ಆರ್ ಎಸ್ ಎನ್ ವ್ಯಕ್ತಿ ಮತ್ತು ಕಲೆ" href="https://archive.org/details/kashilpa.rsnvyakthimattuk0000prof" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.rsnvyakthimattuk0000prof" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.rsnvyakthimattuk0000prof" data-title="ಆರ್ ಎಸ್ ಎನ್ ವ್ಯಕ್ತಿ ಮತ್ತು ಕಲೆ" href="https://archive.org/details/kashilpa.rsnvyakthimattuk0000prof" target="_blank" rel="noopener">ಆರ್ ಎಸ್ ಎನ್ ವ್ಯಕ್ತಿ ಮತ್ತು ಕಲೆ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%AA%E0%B3%8D%E0%B2%B0%E0%B3%8A.+%E0%B2%8E%E0%B2%82.+%E0%B2%8E%E0%B2%9A%E0%B3%8D.+%E0%B2%95%E0%B3%83%E0%B2%B7%E0%B3%8D%E0%B2%A3%E0%B2%AF%E0%B3%8D%E0%B2%AF%22" target="_blank" rel="noopener">ಪ್ರೊ. ಎಂ. ಎಚ್. ಕೃಷ್ಣಯ್ಯ</a></p><p class="meta">192 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.rsnvyakthimattuk0000prof" data-title="ಆರ್ ಎಸ್ ಎನ್ ವ್ಯಕ್ತಿ ಮತ್ತು ಕಲೆ" href="https://archive.org/details/kashilpa.rsnvyakthimattuk0000prof" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.rsnvyakthimattuk0000prof" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.shilpiveerappaku0000glak" data-year="2008" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.shilpiveerappaku0000glak" data-title="ಶಿಲ್ಪಿ ವೀರಪ್ಪ ಕುಂಬಾರ ಕೊಟ್ಯಾಳ್ಕರ್ ಕಲಾಜೀವನ" href="https://archive.org/details/kashilpa.shilpiveerappaku0000glak" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.shilpiveerappaku0000glak" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.shilpiveerappaku0000glak" data-title="ಶಿಲ್ಪಿ ವೀರಪ್ಪ ಕುಂಬಾರ ಕೊಟ್ಯಾಳ್ಕರ್ ಕಲಾಜೀವನ" href="https://archive.org/details/kashilpa.shilpiveerappaku0000glak" target="_blank" rel="noopener">ಶಿಲ್ಪಿ ವೀರಪ್ಪ ಕುಂಬಾರ ಕೊಟ್ಯಾಳ್ಕರ್ ಕಲಾಜೀವನ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%9C%E0%B2%BF.+%E0%B2%B2%E0%B2%95%E0%B3%8D%E0%B2%B7%E0%B3%8D%E0%B2%AE%E0%B3%80%E0%B2%AA%E0%B2%A4%E0%B2%BF%22" target="_blank" rel="noopener">ಜಿ. ಲಕ್ಷ್ಮೀಪತಿ</a></p><p class="meta">110 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.shilpiveerappaku0000glak" data-title="ಶಿಲ್ಪಿ ವೀರಪ್ಪ ಕುಂಬಾರ ಕೊಟ್ಯಾಳ್ಕರ್ ಕಲಾಜೀವನ" href="https://archive.org/details/kashilpa.shilpiveerappaku0000glak" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.shilpiveerappaku0000glak" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.paschayatyadrish0000drda" data-year="2011" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.paschayatyadrish0000drda" data-title="ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲೆಗಳು" href="https://archive.org/details/kashilpa.paschayatyadrish0000drda" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.paschayatyadrish0000drda" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.paschayatyadrish0000drda" data-title="ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲೆಗಳು" href="https://archive.org/details/kashilpa.paschayatyadrish0000drda" target="_blank" rel="noopener">ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲೆಗಳು</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%A1%E0%B2%BF.+%E0%B2%8E.+%E0%B2%89%E0%B2%AA%E0%B2%BE%E0%B2%A7%E0%B3%8D%E0%B2%AF%22" target="_blank" rel="noopener">ಡಾ. ಡಿ. ಎ. ಉಪಾಧ್ಯ</a></p><p class="meta">336 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.paschayatyadrish0000drda" data-title="ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲೆಗಳು" href="https://archive.org/details/kashilpa.paschayatyadrish0000drda" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.paschayatyadrish0000drda" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.paschayatyadrush0000drda" data-year="2011" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.paschayatyadrush0000drda" data-title="ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲಾ ಮೀಮಾಂಸೆ" href="https://archive.org/details/kashilpa.paschayatyadrush0000drda" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.paschayatyadrush0000drda" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.paschayatyadrush0000drda" data-title="ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲಾ ಮೀಮಾಂಸೆ" href="https://archive.org/details/kashilpa.paschayatyadrush0000drda" target="_blank" rel="noopener">ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲಾ ಮೀಮಾಂಸೆ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%A1%E0%B2%BF.+%E0%B2%8E.+%E0%B2%89%E0%B2%AA%E0%B2%BE%E0%B2%A7%E0%B3%8D%E0%B2%AF%22" target="_blank" rel="noopener">ಡಾ. ಡಿ. ಎ. ಉಪಾಧ್ಯ</a></p><p class="meta">238 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.paschayatyadrush0000drda" data-title="ಪಾಶ್ಚಾತ್ಯ ದೃಶ್ಯಕಲಾ ಮೀಮಾಂಸೆ" href="https://archive.org/details/kashilpa.paschayatyadrush0000drda" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.paschayatyadrush0000drda" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.mahendramoksha0000drgg" data-year="2012" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.mahendramoksha0000drgg" data-title="ಮಹೇಂದ್ರ ಮೋಕ್ಷ" href="https://archive.org/details/kashilpa.mahendramoksha0000drgg" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.mahendramoksha0000drgg" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.mahendramoksha0000drgg" data-title="ಮಹೇಂದ್ರ ಮೋಕ್ಷ" href="https://archive.org/details/kashilpa.mahendramoksha0000drgg" target="_blank" rel="noopener">ಮಹೇಂದ್ರ ಮೋಕ್ಷ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%9C%E0%B2%BF.+%E0%B2%9C%E0%B3%8D%E0%B2%9E%E0%B2%BE%E0%B2%A8%E0%B2%BE%E0%B2%A8%E0%B2%82%E0%B2%A6%22" target="_blank" rel="noopener">ಡಾ. ಜಿ. ಜ್ಞಾನಾನಂದ</a></p><p class="meta">90 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.mahendramoksha0000drgg" data-title="ಮಹೇಂದ್ರ ಮೋಕ್ಷ" href="https://archive.org/details/kashilpa.mahendramoksha0000drgg" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.mahendramoksha0000drgg" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.moulderrajannasv0000lshi" data-year="2012" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.moulderrajannasv0000lshi" data-title="ಮೌಲ್ಡರ್ ರಾಜಣ್ಣ" href="https://archive.org/details/kashilpa.moulderrajannasv0000lshi" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.moulderrajannasv0000lshi" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.moulderrajannasv0000lshi" data-title="ಮೌಲ್ಡರ್ ರಾಜಣ್ಣ" href="https://archive.org/details/kashilpa.moulderrajannasv0000lshi" target="_blank" rel="noopener">ಮೌಲ್ಡರ್ ರಾಜಣ್ಣ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%B2%E0%B3%8D.+%E0%B2%B6%E0%B2%BF%E0%B2%B5%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B2%AA%E0%B3%8D%E0%B2%AA%22" target="_blank" rel="noopener">ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ</a></p><p class="meta">94 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.moulderrajannasv0000lshi" data-title="ಮೌಲ್ಡರ್ ರಾಜಣ್ಣ" href="https://archive.org/details/kashilpa.moulderrajannasv0000lshi" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.moulderrajannasv0000lshi" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.rekhachitraprave0000lshi" data-year="2012" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.rekhachitraprave0000lshi" data-title="ರೇಖಾಚಿತ್ರ ಪ್ರವೀಣ ಸಿ. ಕುಪ್ಪಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.rekhachitraprave0000lshi" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.rekhachitraprave0000lshi" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.rekhachitraprave0000lshi" data-title="ರೇಖಾಚಿತ್ರ ಪ್ರವೀಣ ಸಿ. ಕುಪ್ಪಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.rekhachitraprave0000lshi" target="_blank" rel="noopener">ರೇಖಾಚಿತ್ರ ಪ್ರವೀಣ ಸಿ. ಕುಪ್ಪಾಚಾರ್ಯ</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%8E%E0%B2%B2%E0%B3%8D.+%E0%B2%B6%E0%B2%BF%E0%B2%B5%E0%B2%B2%E0%B2%BF%E0%B2%82%E0%B2%97%E0%B2%AA%E0%B3%8D%E0%B2%AA%22" target="_blank" rel="noopener">ಎಲ್. ಶಿವಲಿಂಗಪ್ಪ</a></p><p class="meta">86 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.rekhachitraprave0000lshi" data-title="ರೇಖಾಚಿತ್ರ ಪ್ರವೀಣ ಸಿ. ಕುಪ್ಪಾಚಾರ್ಯ" href="https://archive.org/details/kashilpa.rekhachitraprave0000lshi" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.rekhachitraprave0000lshi" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="kashilpa.badamichalukyara0000drsh" data-year="2013" data-vol="" data-lang="Kannada">
+<a class="cover open" data-id="kashilpa.badamichalukyara0000drsh" data-title="ಬಾದಾಮಿ ಚಲುಕ್ಯರ ದೇವಾಲಯಗಳ ಅಲಂಕಾರ ಶಿಲ್ಪಗಳು" href="https://archive.org/details/kashilpa.badamichalukyara0000drsh" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/kashilpa.badamichalukyara0000drsh" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="kashilpa.badamichalukyara0000drsh" data-title="ಬಾದಾಮಿ ಚಲುಕ್ಯರ ದೇವಾಲಯಗಳ ಅಲಂಕಾರ ಶಿಲ್ಪಗಳು" href="https://archive.org/details/kashilpa.badamichalukyara0000drsh" target="_blank" rel="noopener">ಬಾದಾಮಿ ಚಲುಕ್ಯರ ದೇವಾಲಯಗಳ ಅಲಂಕಾರ ಶಿಲ್ಪಗಳು</a></h2>
+<p class="meta"><a href="https://archive.org/search?query=creator%3A%22%E0%B2%A1%E0%B2%BE.+%E0%B2%B6%E0%B3%80%E0%B2%B2%E0%B2%BE%E0%B2%95%E0%B2%BE%E0%B2%82%E0%B2%A4+%E0%B2%AA%E0%B2%A4%E0%B3%8D%E0%B2%A4%E0%B2%BE%E0%B2%B0%22" target="_blank" rel="noopener">ಡಾ. ಶೀಲಾಕಾಂತ ಪತ್ತಾರ</a></p><p class="meta">178 pages</p>
+<p class="links"><a class="open read" data-id="kashilpa.badamichalukyara0000drsh" data-title="ಬಾದಾಮಿ ಚಲುಕ್ಯರ ದೇವಾಲಯಗಳ ಅಲಂಕಾರ ಶಿಲ್ಪಗಳು" href="https://archive.org/details/kashilpa.badamichalukyara0000drsh" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/kashilpa.badamichalukyara0000drsh" target="_blank" rel="noopener">Download</a></p>
+</li></ul><div id="more" data-pages="3"></div>
+<p id="none" class="none" hidden>Nothing matches your search.</p>
+</main>
 
-    <div class="container quotes">
-        <div class="container">
-            <p> ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿಯು ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಅಧಿಸೂಚನೆ ಸಂಖ್ಯೆ:ಸಂಕಇ:69:ಕರಅ:95 ಬೆಂಗಳೂರು, ದಿನಾಂಕ:21-12-1995ರ ಆದೇಶದಂತೆ ಕರ್ನಾಟಕ ಲಲಿತಕಲಾ ಅಕಾಡೆಮಿಯಿಂದ ಪ್ರತ್ಯೇಕಗೊಂಡು ಸ್ಥಾಪನೆಯಾಯಿತು. ಅಕಾಡೆಮಿ ಸ್ಥಾಪನೆಗೊಂಡು ಇದುವರೆವಿಗೂ ಕರ್ನಾಟಕದಲ್ಲಿ ಸಾಂಪ್ರದಾಯಿಕ ಶಿಲ್ಪಕಲಾ ಪರಂಪರೆ ಹಾಗೂ ಸಮಕಾಲೀನ ಶಿಲ್ಪ ಪ್ರಕಾರಗಳ ಬೆಳವಣಿಗೆಗಾಗಿ ಶ್ರಮಿಸುತ್ತಿದ್ದು, ನಶಿಸುತ್ತಿರುವ ನಮ್ಮ ಶಿಲ್ಪಕಲಾ ಶೈಲಿಗಳನ್ನೂ ಗುರುತಿಸಿ ಅನೇಕ ಪ್ರಗತಿಪರ ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಹಮ್ಮಿಕೊಂಡು ಶಿಲ್ಪಕಲಾ ಬೆಳವಣಿಗೆಗೆ ಕಂಕಣಬದ್ಧವಾಗಿದೆ. ಇತ್ತೀಚಿನ ದಿನಗಳಲ್ಲಿ ಶಿಲ್ಪಕಲೆಯ ಮಹತ್ವದ ಬಗ್ಗೆ ಅರಿವು ಮೂಡಿಸುವ ಕಾರ್ಯಕ್ರಮಗಳು ನಡೆದು, ಶಿಲ್ಪ ಶಿಬಿರಗಳನ್ನು ನಡೆಸಿ ಶಿಲ್ಪಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಆ ಪರಿಸರದಲ್ಲೇ ಪ್ರದರ್ಶಿಸಿ ಜನರಲ್ಲಿ ಶಿಲ್ಪದ ಪ್ರಜ್ಞೆ ಮೂಡಿಸಲು ಸಹಕಾರಿಯಾಗುತ್ತಿದೆ. ಸಮಗ್ರವಾಗಿ ಶಿಲ್ಪಕಲೆಯು ಬೆಳೆಯಲು ಪೂರಕವಾಗಿ ಕೆಲಸ ನಿರ್ವಹಿಸುತ್ತಿದ್ದು, ಅಕಾಡೆಮಿಯು ಕೈಗೊಂಡು ತನ್ನ ಕಾರ್ಯ ವ್ಯಾಪ್ತಿಯನ್ನು ವಿಸ್ತರಿಸಿಕೊಂಡು ಶಿಲ್ಪಕಲೆ ಬೆಳವಣಿಗೆಗೆ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿಯು ತನ್ನದೇ ಆದ ಕೊಡುಗೆ ನೀಡುತ್ತಿದೆ. ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ ‌ಪ್ರಕಟಣೆಯ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!</p>
-            </p>
-        </div>
-    </div>
+<footer>
+  
+  <p class="credit">Published by <a href="https://sanchaya.org" target="_blank" rel="noopener">Sanchaya</a> | <a href="https://sanchifoundation.org" target="_blank" rel="noopener">Sanchi Foundation</a> in collaboration with <a href="https://research.servantsofknowledge.in" target="_blank" rel="noopener">Servants of Knowledge</a>.</p>
+  <p class="fine">Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International License. Each issue has its own copyright/license. Please read the metadata on the issue page.</p>
+  <p class="sok"><img src="./img/sok-logo.png" alt=""><span>A <a href="https://archive.org/details/ServantsOfKnowledge" target="_blank" rel="noopener">Servants of Knowledge</a> Initiative</span></p>
+</footer>
 
 
-    <div class="container">
-    <div class="container">
-        <div class="row">
-            <div class="pythonbooks span12">
-                <p>See also :</p>
-                <a href="https://sanchaya.org/" title="ಪುಸ್ತಕ ಡಿಜಿಟಲೀಕರಣ ಯೋಜನೆ"‍ target="_blank">
-                    <img src="./img/logo_sanchaya.png" alt="Sanchaya" title="ಕನ್ನಡ ಭಾಷಾ ತಂತ್ರಜ್ಞಾನ ಸಂ‍ಶೋಧನೆ ಹಾಗೂ ಅಧ್ಯಯನ ವೇದಿಕೆ!" width="100" height="16">
-                </a>
-                <a href="https://sanchaya.org/project/kannada-digitization-project/" target="_blank">
-                  ‍
-                </a>
-            </div>
-            <div class="span12 row-fluid">
-                <p class="span1">Filter by :</p>
-                <ul id="filterBy">
-                    <li><a href="#" data-level="any"  title="filter books by All">All</a></li>
-                    <li><a href="#" data-level="shilpakaleSahitya" class="active" title="filter books by ವಿಜ್ಞಾನ ಸಾಹಿತ್ಯ">ಅರೆಭಾಷೆ ಸಾಹಿತ್ಯ</a></li>
-                    <li><a href="#" data-level="Hingara" title="filter books by ಕನ್ನಡ ಸಾಹಿತ್ಯ">ಹಿಂಗಾರ ಸಂಚಿಕೆಗಳು</a></li>
-                    <li><a href="#" data-level="KodaguSangati" title="filter books by Kodagu Sangati Sanchaya">ಕೊಡಗು ಸಂಗಾತಿ ಸಂಚಿಕೆಗಳು<a></li>
-                </ul>
-            </div>
-        </div>
 
-        <!-- ////////// WRAPPER BOOKS -->
-        <div class="row" id="issueswrap"></div>
-    </div>
-
-    <!-- ==========================
-    FOOTER
-    =========================== -->
-    <div class="footer">
-        <hr>
-        <p>
-            ಈ ಡಿಜಿಟಲೀಕರಣವನ್ನು ‍ಸಂಚಿ ಫೌಂಡೇಷನ್®, ಬೆಂಗಳೂರು ಇವರ ಸಹಯೋಗದೊಂದಿಗೆ ಸಾಧ್ಯವಾಗಿಸಲಾಗಿದೆ.
-        </p>
-        <p> <b>Sanchi Foundation</b>® | ಸಂಚಿ ಫೌಂಡೇಷನ್® Except where otherwise noted, content on this site
-          is licensed under a Creative Commons Attribution 4.0 International License.
-          Each book has its own copyright/license. Please read the metadata on the book page. </p>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="./js/mustache.js"></script>
-
-    <script type="text/javascript">
-
-    function randOrd(){
-      return (Math.round(Math.random())-0.5);
-    }
-
-    function filterBy() {
-        var // var's sort by
-            active = 'active',
-            btFilterBy = $('#filterBy').find('a'),
-            booksection = $('.booksection');
-
-        // interaction filter by level
-        btFilterBy.on('click', function(e) {
-            e.preventDefault();
-            var level = $(this).data('level');
-            if (level==='any') {
-                // restore all books
-                booksection.show();
-            } else {
-                booksection.not('.' + level).fadeOut('fast');
-                booksection.filter('.' + level).fadeIn('fast');
-            }
-
-            btFilterBy.removeClass(active);
-            $(this).addClass(active);
-        });
-    }
-
-    $(document).ready(function() {
-        // get the data and compile into the html template
-        $.getJSON('./issues.json?' + Math.random(), function(data) {
-            var template = $('#booktpl').html(),
-                issuesWrap = $('#issueswrap');
-
-            data.books.sort(randOrd);
-            issuesWrap.html(Mustache.to_html(template, data));
-
-            filterBy();
-        });
-
-        var // var's info
-            jsInfos = $('#jsinfos'),
-            btInfo = $('a.#infos');
-
-        // interaction show more info about it
-        jsInfos.hide();
-        btInfo.on('click', function(){
-          jsInfos.slideToggle();
-        });
-    });
-    </script>
-
-    <script id="booktpl" type="text/template">
-        {{#books}}
-         <div class="span4 booksection {{level}}">
-          <a  target="_blank" href="{{url}}">
-           <div class="view"> ಓದಿರಿ </div>
-
-           <div title="{{ title }}" id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
-           </div>
-           <h2 title="{{ title }}">{{title}}</h2>
-          </a>
-          <h3><a href="{{authorUrl}}" target="_blank">{{author}}</a></h3>
-          <p class="level">{{level}}</p>
-          <p class="description">{{info}}</p>
-        </div>
-        {{/books}}
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3727897-43"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+(function () {
+  'use strict';
+  var FRAME = false, T = {"items":"items"};
+  var $ = function (s) { return document.querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var q = $('#q'), pills = $$('#pills .pill'), tpills = $$('#topics .pill'), vpills = $$('#vols .pill'), lpills = $$('#langs .pill'), year = 'any', topic = 'any', vol = 'any', lang = 'any', more = $('#more');
+  var pages = more ? +more.dataset.pages : 1, next = 1, total = parseInt($('#count').textContent, 10) || 0;
+  var norm = function (s) { return s.normalize('NFC').toLowerCase(); };
+  var cards = function () { return $$('.card'); };
+  var idOf = function (c) { return c.dataset.id || c.querySelector('a.t').dataset.id; };
+  var loaded = { 0: 1 }, pending = {}, index = null, token = 0;
 
-  gtag('config', 'UA-3727897-43');
+  // Pages 1.. are fragments: merge them under the year/volume heading already on screen.
+  function attach(html) {
+    var box = document.createElement('div'); box.innerHTML = html;
+    var ul = $('main ul.cards');
+    $$('li', box).forEach(function (li) { ul.append(li); });
+  }
+  function load(n) {
+    if (loaded[n]) return Promise.resolve();
+    return pending[n] || (pending[n] = fetch('p/' + n + '.html').then(function (r) { return r.text(); }).then(function (h) { attach(h); loaded[n] = 1; }));
+  }
+  function loadNext() { return next < pages ? load(next++).then(function () { if (next >= pages && more) more.remove(); }) : Promise.resolve(); }
+  function getIndex() {
+    return index ? Promise.resolve(index) : fetch('search.json').then(function (r) { return r.json(); }).then(function (j) { return (index = j); });
+  }
+
+  var busy = false;
+  function apply() {
+    var terms = norm(q.value).split(/\s+/).filter(Boolean), me = ++token;
+    if (year === 'any' && topic === 'any' && vol === 'any' && lang === 'any' && !terms.length) {
+      cards().forEach(function (c) { c.hidden = false; });
+      $('#count').textContent = total + ' / ' + total + ' ' + T.items; $('#none').hidden = true; watch();
+      return;
+    }
+    getIndex().catch(function () {
+      // search.json missing (portal built by an older builder): filter what is on the page by year/text.
+      return cards().map(function (c) { return [idOf(c), c.dataset.year, c.dataset.q || c.textContent.normalize('NFC').toLowerCase(), 0, [], c.dataset.vol || '', c.dataset.lang || '']; });
+    }).then(function (idx) {
+      var hit = idx.filter(function (r) { return (year === 'any' || r[1] === year) && (topic === 'any' || (r[4] || []).indexOf(topic) > -1) && (vol === 'any' || r[5] === vol) && (lang === 'any' || r[6] === lang) && terms.every(function (t) { return r[2].indexOf(t) > -1; }); });
+      var need = {}; hit.forEach(function (r) { need[r[3]] = 1; });
+      return Promise.all(Object.keys(need).map(load)).then(function () {
+        if (me !== token) return;
+        var ids = {}; hit.forEach(function (r) { ids[r[0]] = 1; });
+        cards().forEach(function (c) { c.hidden = !ids[idOf(c)]; });
+        $('#count').textContent = hit.length + ' / ' + total + ' ' + T.items; $('#none').hidden = hit.length > 0;
+      });
+    });
+  }
+  q.addEventListener('input', apply);
+  vpills.forEach(function (p) {
+    p.addEventListener('click', function () {
+      vol = p.dataset.vol;
+      vpills.forEach(function (x) { x.setAttribute('aria-pressed', x === p ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  lpills.forEach(function (p) {
+    p.addEventListener('click', function () {
+      lang = p.dataset.lang;
+      lpills.forEach(function (x) { x.setAttribute('aria-pressed', x === p ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  tpills.forEach(function (p) {
+    p.addEventListener('click', function () {
+      topic = p.dataset.topic;
+      tpills.forEach(function (x) { x.setAttribute('aria-pressed', x === p ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  // Long descriptions are clamped to a few lines; click (or Enter) to read the rest.
+  function flip(n) {
+    var open = n.classList.toggle('open');
+    n.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  $('#list').addEventListener('click', function (e) { var n = e.target.closest('.note'); if (n) flip(n); });
+  $('#list').addEventListener('keydown', function (e) {
+    var n = e.target.closest && e.target.closest('.note');
+    if (n && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); flip(n); }
+  });
+  pills.forEach(function (p) {
+    p.addEventListener('click', function () {
+      year = p.dataset.year;
+      pills.forEach(function (x) { x.setAttribute('aria-pressed', x === p ? 'true' : 'false'); });
+      apply();
+    });
+  });
+
+  // Auto-load the next page when the end of the list nears (only while nothing is filtered).
+  var io = more && 'IntersectionObserver' in window ? new IntersectionObserver(function (e) {
+    if (e[0].isIntersecting && year === 'any' && topic === 'any' && vol === 'any' && lang === 'any' && !q.value.trim()) loadNext().then(watch);
+  }, { rootMargin: '800px' }) : null;
+  function watch() { if (io && more && more.isConnected) { io.unobserve(more); io.observe(more); } }
+  if (io) watch(); else if (more) { while (next < pages) loadNext(); } // no IntersectionObserver: load everything
+
+  // shortcut: random pick only highlights; it never opens (popup blockers, and readers can still choose).
+  $('#rand').addEventListener('click', function () {
+    var vis = cards().filter(function (c) { return !c.hidden; });
+    if (!vis.length) return;
+    cards().forEach(function (c) { c.classList.remove('hit'); });
+    var c = vis[Math.floor(Math.random() * vis.length)];
+    c.classList.add('hit');
+    c.scrollIntoView({ block: 'center' });
+    c.querySelector('a.t').focus({ preventScroll: true });
+  });
+
+  if (FRAME) {
+    var dlg = $('#viewer'), fr = $('#vframe'), cur = -1;
+    var items = function () { return cards().filter(function (c) { return !c.hidden; }).map(function (c) { return c.querySelector('a.t'); }); };
+    var show = function (a) {
+      var l = items(); cur = l.indexOf(a);
+      fr.src = 'https://archive.org/embed/' + a.dataset.id;
+      $('#vtab').href = a.href; $('#vtitle').textContent = a.dataset.title;
+      $('#vprev').disabled = cur <= 0; $('#vnext').disabled = cur < 0 || cur >= l.length - 1;
+      if (!dlg.open) dlg.showModal();
+    };
+    $('#list').addEventListener('click', function (e) {
+      var a = e.target.closest('a.open');
+      if (!a || e.button || e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault(); show(a.closest('.card').querySelector('a.t'));
+    });
+    var step = function (d) {
+      var l = items(), n = l[cur + d];
+      if (n) show(n); else if (d > 0 && next < pages && year === 'any' && topic === 'any' && vol === 'any' && lang === 'any' && !q.value.trim()) loadNext().then(function () { var m = items()[cur + d]; if (m) show(m); });
+    };
+    $('#vprev').addEventListener('click', function () { step(-1); });
+    $('#vnext').addEventListener('click', function () { step(1); });
+    $('#vclose').addEventListener('click', function () { dlg.close(); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('close', function () { fr.src = 'about:blank'; });
+    dlg.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') step(-1); else if (e.key === 'ArrowRight') step(1);
+    });
+  }
+})();
 </script>
-  </body>
+
+</body>
 </html>
