@@ -2,6 +2,6 @@
 
 Digital archive hosted at **https://shilpakale.sanchaya.net**
 
-Published by ಕರ್ನಾಟಕ ಶಿಲ್ಪಕಲಾ ಅಕಾಡೆಮಿ. Items come from Internet Archive query:
+Published by sanchaya. Items come from Internet Archive query:
 
-    identifier:kashilpa*
+    collection:ServantsOfKnowledge AND identifier:kashilpa*
